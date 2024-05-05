@@ -2,9 +2,9 @@
 
 namespace Flixtechs\Duplicate\Tests;
 
+use Flixtechs\Duplicate\DuplicateServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Flixtechs\Duplicate\DuplicateServiceProvider;
 
 class TestCase extends Orchestra
 {

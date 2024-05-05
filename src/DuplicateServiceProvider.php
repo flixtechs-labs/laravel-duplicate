@@ -2,9 +2,9 @@
 
 namespace Flixtechs\Duplicate;
 
+use Flixtechs\Duplicate\Commands\DuplicateCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Flixtechs\Duplicate\Commands\DuplicateCommand;
 
 class DuplicateServiceProvider extends PackageServiceProvider
 {
